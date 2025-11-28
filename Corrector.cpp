@@ -1,4 +1,4 @@
-/*****************************************************************************************************************
+/ඞඞඞඞඞඞඞඞඞඞඞඞඞඞඞඞඞඞඞඞඞඞඞඞඞඞඞඞඞඞඞඞඞඞඞඞඞඞඞඞඞඞඞඞඞඞඞඞඞඞඞඞඞඞඞඞඞඞඞඞඞඞඞඞඞඞඞඞඞඞඞඞ
     UNIVERSIDAD NACIONAL AUTONOMA DE MEXICO
     FACULTAD DE ESTUDIOS SUPERIORES -ARAGON-
 
@@ -7,7 +7,7 @@
 
     Quiso decir: Programa principal de la aplicacion de la distancia de Levenstein.
 
-******************************************************************************************************************/
+ඞඞඞඞඞඞඞඞඞඞඞඞඞඞඞඞඞඞඞඞඞඞඞඞඞඞඞඞඞඞඞඞඞඞඞඞඞඞඞඞඞඞඞඞඞඞඞඞඞඞඞඞඞඞඞඞඞඞඞඞඞඞඞඞඞඞඞඞඞඞඞඞඞඞ/
 #include "stdafx.h"
 #include <string.h>
 #include "corrector.h"
@@ -91,7 +91,7 @@ void Diccionario(char* szNombre, char szPalabras[][TAMTOKEN], int iEstadisticas[
         ++idx;
     }
 }
-/*****************************************************************************************************************
+/ඞඞඞඞඞඞඞඞඞඞඞඞඞඞඞඞඞඞඞඞඞඞඞඞඞඞඞඞඞඞඞඞඞඞඞඞඞඞඞඞඞඞඞඞඞඞඞඞඞඞඞඞඞඞඞඞඞඞඞඞඞඞඞඞඞඞඞඞඞඞඞඞ
     ListaCandidatas: Esta funcion recupera desde el diccionario las palabras validas y su peso
     Regresa las palabras ordenadas por su peso
     char	szPalabrasSugeridas[][TAMTOKEN],	//Lista de palabras clonadas
@@ -102,7 +102,7 @@ void Diccionario(char* szNombre, char szPalabras[][TAMTOKEN], int iEstadisticas[
     char	szListaFinal[][TAMTOKEN],			//Lista final de palabras a sugerir
     int		iPeso[],							//Peso de las palabras en la lista final
     int &	iNumLista)							//Numero de elementos en la szListaFinal
-******************************************************************************************************************/
+ඞඞඞඞඞඞඞඞඞඞඞඞඞඞඞඞඞඞඞඞඞඞඞඞඞඞඞඞඞඞඞඞඞඞඞඞඞඞඞඞඞඞඞඞඞඞඞඞඞඞඞඞඞඞඞඞඞඞඞඞඞඞඞඞඞඞඞඞඞඞඞඞඞඞ/
 void ListaCandidatas(
     char szPalabrasSugeridas[][TAMTOKEN],
     int iNumSugeridas,
@@ -135,12 +135,12 @@ void ListaCandidatas(
         iPeso[k] = finales[k].peso;
     }
 }
-/*****************************************************************************************************************
+/ඞඞඞඞඞඞඞඞඞඞඞඞඞඞඞඞඞඞඞඞඞඞඞඞඞඞඞඞඞඞඞඞඞඞඞඞඞඞඞඞඞඞඞඞඞඞඞඞඞඞඞඞඞඞඞඞඞඞඞඞඞඞඞඞඞඞඞඞඞඞඞඞ
 	ClonaPalabras: toma una palabra y obtiene todas las combinaciones y permutaciones requeridas por el metodo
 	char *	szPalabraLeida,						// Palabra a clonar
 	char	szPalabrasSugeridas[][TAMTOKEN], 	//Lista de palabras clonadas
 	int &	iNumSugeridas)						//Numero de elementos en la lista
-******************************************************************************************************************/
+ඞඞඞඞඞඞඞඞඞඞඞඞඞඞඞඞඞඞඞඞඞඞඞඞඞඞඞඞඞඞඞඞඞඞඞඞඞඞඞඞඞඞඞඞඞඞඞඞඞඞඞඞඞඞඞඞඞඞඞඞඞඞඞඞඞඞඞඞඞඞඞඞඞ/
 void ClonaPalabras(
     char* szPalabraLeida,                       // Palabra a clonar
     char szPalabrasSugeridas[][TAMTOKEN],       //Lista de palabras clonadas
@@ -202,4 +202,5 @@ void ClonaPalabras(
     for (int m = 0; m < num; ++m) {
         strcpy_s(szPalabrasSugeridas[m], TAMTOKEN, szSugerencias[m]);
     }
+
 }
