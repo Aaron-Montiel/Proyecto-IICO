@@ -25,7 +25,7 @@ quisodecir.vcxproj.filters
     la agrupación de archivos con extensiones similares bajo un nodo 
     específico (por ejemplo, los archivos ".cpp" se asocian con el filtro
     "Archivos de código fuente").
-
+Y es pe;aloza
 quisodecir.cpp
     Ésta es la aplicación principal del archivo de código fuente.
 
@@ -44,3 +44,4 @@ El asistente para aplicaciones utiliza comentarios "TODO:" para indicar las
 partes del código fuente que tendrá que agregar o personalizar.
 
 /////////////////////////////////////////////////////////////////////////////
+
