@@ -1,0 +1,2 @@
+323332996
+En esta asignación, implementé un corrector ortográfico basado en la distancia, utilizando archivos para cargar diccionarios, arreglos para manejar palabras y frecuencias, decisiones y repeticiones para generar sugerencias, y ordenamientos con búsquedas binarias para eficiencia. Aprendí a optimizar memoria y tiempo para grandes datos, logrando un sistema predictivo útil.
